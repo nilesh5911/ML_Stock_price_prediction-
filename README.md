@@ -1,13 +1,17 @@
 Model Performance and Results
 
 ✓ Data: The AAPL stock price data was loaded and pre-processed using 
-MinMaxScaler for normalization. 
+MinMaxScaler for normalization.
+
 ✓ Model Architecture:  
-o A stacked LSTM model with three LSTM layers was implemented. 
+
+o A stacked LSTM model with three LSTM layers was implemented.
+
 o Additionally, for comparison purposes, the code includes the creation and 
 training of Dilated CNN and CNN-LSTM models (commented out). 
 
 ✓ Training:  
+
 o The data was split into training and testing sets (65% training, 35% testing). 
 o The LSTM model was trained for 100 epochs with a batch size of 64 using 
 the Adam optimizer and mean absolute error (MAE) loss function. 
