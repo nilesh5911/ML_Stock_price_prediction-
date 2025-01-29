@@ -1,4 +1,5 @@
-Model Performance and Results: 
+Model Performance and Results
+
 ✓ Data: The AAPL stock price data was loaded and pre-processed using 
 MinMaxScaler for normalization. 
 ✓ Model Architecture:  
